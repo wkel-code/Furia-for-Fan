@@ -26,10 +26,10 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				furia: {
-					black: '#000000',
-					orange: '#FF5500',
-					white: '#FFFFFF',
-					gray: '#727D71',
+					black: '#090909', // Updated
+					orange: '#FFBA49', // Updated to the vibrant detail color
+					white: '#FBFBFF', // Updated
+					gray: '#727D71', // Updated
 				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',

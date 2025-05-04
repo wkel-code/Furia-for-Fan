@@ -2,10 +2,11 @@
 import React from 'react';
 import { Instagram, MessageSquare } from 'lucide-react';
 import FuriaLogo from './FuriaLogo';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-black/90 backdrop-blur-sm border-b border-furia-orange/30">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-furia-black/90 backdrop-blur-sm border-b border-furia-orange/30">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         {/* Mobile menu button - will be implemented later */}
         <div className="md:hidden">
@@ -20,10 +21,10 @@ const Header = () => {
         
         {/* Navigation */}
         <nav className="hidden md:flex items-center space-x-8">
-          <a href="#" className="menu-item-active">Home</a>
-          <a href="#" className="menu-item">Perfil</a>
-          <a href="#" className="menu-item">Conexões</a>
-          <a href="#" className="menu-item">FAQ</a>
+          <Link to="/" className="menu-item-active">Home</Link>
+          <Link to="/profile" className="menu-item">Perfil</Link>
+          <Link to="/connections" className="menu-item">Conexões</Link>
+          <Link to="/faq" className="menu-item">FAQ</Link>
         </nav>
         
         {/* FURIA Logo */}

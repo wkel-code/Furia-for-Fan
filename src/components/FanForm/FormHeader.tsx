@@ -11,7 +11,7 @@ const FormHeader: React.FC<FormHeaderProps> = ({ currentStep, totalSteps }) => {
     <div className="mb-8">
       <div className="flex justify-between items-center mb-2">
         <h2 className="text-3xl md:text-4xl text-furia-white">
-          <span className="text-furia-orange">#</span>KNOW YOUR FAN
+          <span className="text-furia-orange">#</span>FURIA FOR FÃ
         </h2>
         <span className="text-furia-orange font-bebas text-lg">
           {currentStep}/{totalSteps}

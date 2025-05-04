@@ -34,7 +34,7 @@ const Header = () => {
         
         {/* Social Icons */}
         <div className="flex items-center space-x-4">
-          <a href="https://www.instagram.com/furia/" target="_blank" rel="noopener noreferrer" className="furia-social-icon">
+          <a href="https://www.instagram.com/furiagg/" target="_blank" rel="noopener noreferrer" className="furia-social-icon">
             <Instagram size={24} />
           </a>
           <a href="https://api.whatsapp.com/send/?phone=5511993404466&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="furia-social-icon">

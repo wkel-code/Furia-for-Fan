@@ -1,73 +1,56 @@
-# Welcome to your Lovable project
+# **FURIA for Fã - Plataforma de Engajamento de Torcedores**
 
-## Project info
+## **Objetivo**
+Desenvolver uma solução para coleta e análise de dados de fãs de esports, permitindo que organizações como a FURIA ofereçam experiências personalizadas aos seus torcedores.
 
-**URL**: https://lovable.dev/projects/745a95f8-9631-4c74-b57b-0e94b950d798
+## **Descrição do Projeto**
+Este repositório contém uma aplicação para cadastro e análise de fãs de esports, com foco em:
 
-## How can I edit this code?
+-  Coleta de dados pessoais e preferências
+-  Análise de engajamento em redes sociais
+-  Integração com plataformas de esports
 
-There are several ways of editing your application.
+## **Funcionalidades Principais**
 
-**Use Lovable**
+### **1. Cadastro Completo do Fã**
+- Dados pessoais (nome, e-mail, CPF)
+- Endereço e contato
+- Histórico de eventos e compras
+- Preferências de jogos e times
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/745a95f8-9631-4c74-b57b-0e94b950d798) and start prompting.
+### **2. Validação com IA**
+- Upload de documentos (RG, CPF)
+- Verificação de autenticidade
 
-Changes made via Lovable will be committed automatically to this repo.
+### **3. Conexão com Redes Sociais**
+- Vinculação de contas (Twitter, Instagram, Steam)
+- Análise de interações com a FURIA
+- Mapeamento de comunidades seguidas
 
-**Use your preferred IDE**
+### **4. Perfil em Plataformas de Esports**
+- Links para perfis em HLTV, Liquipedia, etc.
+- Validação de relevância com IA
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## **Tecnologias Utilizadas**
+- **Frontend**: React + TypeScript
+- **Estilização**: Tailwind CSS
+- **Build**: Vite
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## **Como Executar**
 
-Follow these steps:
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/furia-for-fa.git
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Instale as dependências
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Inicie o servidor de desenvolvimento
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## **Contribuição**
+Contribuições são bem-vindas! Abra uma issue ou envie um PR com suas melhorias.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/745a95f8-9631-4c74-b57b-0e94b950d798) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**#GOFURIA** 🔥 #GOFURIA

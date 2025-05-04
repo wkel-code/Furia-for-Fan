@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -24,6 +25,12 @@ export default {
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				furia: {
+					black: '#000000',
+					orange: '#FF5500',
+					white: '#FFFFFF',
+					gray: '#727D71',
+				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
@@ -84,11 +91,37 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'pulse-furia': {
+					'0%, 100%': { 
+						opacity: '1',
+						transform: 'scale(1)' 
+					},
+					'50%': { 
+						opacity: '0.95',
+						transform: 'scale(1.05)' 
+					},
+				},
+				'slide-in': {
+					'0%': { 
+						transform: 'translateY(20px)',
+						opacity: '0' 
+					},
+					'100%': { 
+						transform: 'translateY(0)',
+						opacity: '1' 
+					},
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-furia': 'pulse-furia 3s ease-in-out infinite',
+				'slide-in': 'slide-in 0.5s ease-out forwards',
+			},
+			fontFamily: {
+				'bebas': ['Bebas Neue', 'sans-serif'],
+				'montserrat': ['Montserrat', 'sans-serif'],
 			}
 		}
 	},

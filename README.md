@@ -53,4 +53,4 @@ npm run dev
 Contribuições são bem-vindas! Abra uma issue ou envie um PR com suas melhorias.
 
 
-**#GOFURIA** 🔥 #GOFURIA
+**#GOFURIA** 🔥 

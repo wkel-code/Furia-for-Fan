@@ -14,7 +14,7 @@ Este repositório contém uma aplicação para cadastro e análise de fãs de es
 
 ### **1. Cadastro Completo do Fã**
 - Dados pessoais (nome, e-mail, CPF)
-- Endereço e contato
+- Contato
 - Histórico de eventos e compras
 - Preferências de jogos e times
 
@@ -26,10 +26,6 @@ Este repositório contém uma aplicação para cadastro e análise de fãs de es
 - Vinculação de contas (Twitter, Instagram, Steam)
 - Análise de interações com a FURIA
 - Mapeamento de comunidades seguidas
-
-### **4. Perfil em Plataformas de Esports**
-- Links para perfis em HLTV, Liquipedia, etc.
-- Validação de relevância com IA
 
 ## **Tecnologias Utilizadas**
 - **Frontend**: React + TypeScript
@@ -50,7 +46,6 @@ npm run dev
 ```
 
 ## **Contribuição**
-Contribuições são bem-vindas! Abra uma issue ou envie um PR com suas melhorias.
-
+Contribuições são bem-vindas! 
 
 **#GOFURIA** 🔥 
